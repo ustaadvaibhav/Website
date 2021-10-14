@@ -15,11 +15,11 @@ function light(){
     console.log('Light');
 }
 
-function SelfCopy(copyText) 
-{
-      navigator.clipboard.writeText(copyText);
-      alert("You just copied this: (" + copyText + ").");
-}
+// function SelfCopy(copyText) 
+// {
+//       navigator.clipboard.writeText(copyText);
+//       alert("You just copied this: (" + copyText + ").");
+// }
 var mode = localStorage.getItem('Appearance');
 console.log(mode); 
 
