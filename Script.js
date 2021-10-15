@@ -4,8 +4,16 @@ function dark(){
     var object = document.getElementById('dark');
     dark.backgroundColor = "0e122b";
     dark.color = "white";
+    
+    // Saving the Preferred Mode Of the User
     localStorage.setItem('Appearance',"Dark");
     console.log('Dark');
+
+    //Changing the lettering in the NavBar
+    // var element = document.getElementById('element');
+    // element.classList.add('class-1');
+    // element.classList.add('class-2', 'class-3');
+    // element.classList.remove('class-3');
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -21,7 +29,6 @@ function light(){
 //       alert("You just copied this: (" + copyText + ").");
 // }
 var mode = localStorage.getItem('Appearance');
-console.log(mode); 
 
 if (mode === "Light"){
     light()
@@ -29,3 +36,4 @@ if (mode === "Light"){
 else{
     dark()
 }
+

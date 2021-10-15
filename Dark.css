@@ -1,4 +1,13 @@
 .dark{
-    background: black;
+    background-color: black;
     color: white;
+}
+.dark > p a{
+    color: white;
+}
+.dark > ul li a{
+    color: white;
+}
+.dark > ul li{
+    background-color: black;
 }

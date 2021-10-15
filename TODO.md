@@ -1,3 +1,3 @@
-Create a border around the Contacts and Every other button
+Resize Navbar to mobile
 
 Complete the Copy Function

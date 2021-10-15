@@ -53,7 +53,7 @@ nav p a{
     background-color: DodgerBlue;
   }
 
-.flex-container > div ul li {
+.flex-contain li {
   background-color: #f1f1f1;
   width: 100px;
   margin: 10px;
