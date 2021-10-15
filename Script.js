@@ -1,5 +1,5 @@
 function dark(){
-    document.body.style.backgroundColor = "#0e122b";
+    document.body.style.backgroundColor = "#0b2b45";
     document.body.style.color = "white";
     var object = document.getElementById('dark');
     dark.backgroundColor = "0e122b";
@@ -17,7 +17,7 @@ function dark(){
 }
 function light(){
     document.body.style.backgroundColor = "white";
-    document.body.style.color = "#0e122b"; 
+    document.body.style.color = "#0b2b45"; 
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
