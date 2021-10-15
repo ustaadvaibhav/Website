@@ -1,5 +1,5 @@
 .dark{
-    background-color: black;
+    background-color: #051624;
     color: white;
 }
 .dark > p a{
@@ -9,5 +9,5 @@
     color: white;
 }
 .dark > ul li{
-    background-color: black;
+    background-color: #051624;
 }
