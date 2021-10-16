@@ -5,13 +5,15 @@ function dark(){
     var object = document.getElementById('dark');
     dark.backgroundColor = "0e122b";
     dark.color = "white";
-    
     // Saving the Preferred Mode Of the User
     localStorage.setItem('Appearance',"Dark");
     console.log('Dark');
 
     //Changing the lettering in the NavBar
     navbar.classList.add('daek');
+
+    localStorage.setItem('Appearance',"Dark");
+    console.log('Dark');
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -19,6 +21,7 @@ function light(){
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
+
     navbar.classList.remove('Dark')
 }
 
@@ -28,11 +31,19 @@ function light(){
 //       alert("You just copied this: (" + copyText + ").");
 // }
 var mode = localStorage.getItem('Appearance');
+}
+
+var mode = localStorage.getItem('Appearance');
+console.log(mode); 
+
 
 if (mode === "Light"){
     light()
 }
 else{
     dark()
+
 }
 
+
+}
