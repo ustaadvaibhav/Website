@@ -6,20 +6,21 @@
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
     <title> Contact - Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Dark.css">
     <link rel="icon" href="Icon/favicon.ico">
 </head>
 <body>
-    <nav class="topnav flexbox-container" id="dark">
-        <p class="Highlight"><a href="Index.html">Portfolio</a></p>
+    <nav class="topnav flexbox-container dark navHover" id="navvbar">
+        <p><a href="Index.html">Portfolio</a></p>
         <ul>
             <li class="hover"><a href="Index.html">Home</a></li>
             <li class="hover"><a href="#projects">Projects</a></li>
-            <li><a href="#mode">Appearance</a>
+            <li class="hover"><a href="#mode">Appearance</a>
                 <ul>
-                    <li class="hover"><a href="" onclick="light()">Light Mode</a></li>
-                    <li ><a href="" onclick="dark()">Dark Mode</a></li>
+                    <li class="hover"><a class="hover" href="" onclick="light()">Light Mode</a></li>
+                    <li class="hover"><a class="hover" href="" onclick="dark()">Dark Mode</a></li>
                 </ul>
-            </li >
+            </li>
             <li class="hover"><a href="#about">About</a></li>
             
         </ul>
@@ -29,6 +30,7 @@
             Do the dark mode later
         -->
     </nav>
+    <hr>
     <div style="padding: 275px;" class="centre">
         Contact Me
         <div style="font-size:40px;padding-top: 10px;padding-bottom: 10px;padding-right: 1px;padding-left: 1px;text-align: center;" class="hover">
@@ -39,4 +41,5 @@
         </div>
     </div>
     <script src="Script.js"></script>
+    <hr>
 </body>

@@ -1,4 +1,5 @@
 .dark{
+    background-color: black;
     background-color: #051624;
     color: white;
 }
@@ -11,3 +12,20 @@
 .dark > ul li{
     background-color: #051624;
 }
+.dark > ul li ul{
+    background-color: #051624;
+}
+.dark > ul li ul li a{
+    background-color: #051624;
+}
+
+
+.navHover ul li:hover {
+    border: 1px solid #222;
+    background-color: white;
+    border-radius: 10px;
+    border-width: inherit;
+}
+.navHover ul li a:hover {
+    color:black;
+} 
