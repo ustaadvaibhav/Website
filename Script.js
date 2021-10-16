@@ -1,3 +1,4 @@
+var navbar = document.getElementById('navvbar');
 function dark(){
     document.body.style.backgroundColor = "#0b2b45";
     document.body.style.color = "white";
@@ -10,10 +11,7 @@ function dark(){
     console.log('Dark');
 
     //Changing the lettering in the NavBar
-    // var element = document.getElementById('element');
-    // element.classList.add('class-1');
-    // element.classList.add('class-2', 'class-3');
-    // element.classList.remove('class-3');
+    navbar.classList.add('daek');
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -21,6 +19,7 @@ function light(){
     console.log("yes");
     localStorage.setItem('Appearance',"Light");
     console.log('Light');
+    navbar.classList.remove('Dark')
 }
 
 // function SelfCopy(copyText) 
