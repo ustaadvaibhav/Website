@@ -14,6 +14,8 @@ function dark(){
     // element.classList.add('class-1');
     // element.classList.add('class-2', 'class-3');
     // element.classList.remove('class-3');
+    localStorage.setItem('Appearance',"Dark");
+    console.log('Dark');
 }
 function light(){
     document.body.style.backgroundColor = "white";
@@ -30,10 +32,16 @@ function light(){
 // }
 var mode = localStorage.getItem('Appearance');
 
+var mode = localStorage.getItem('Appearance');
+console.log(mode); 
+
 if (mode === "Light"){
     light()
 }
 else{
     dark()
+
+}
+
 }
 
